@@ -23,6 +23,20 @@
 }
 
 .announcement-bar .announcement marquee {
-  width: 100%;
+  width: 10%;
   white-space: nowrap;
 }
+
+.announcement-bar {
+  background-color: #262626; /* Instagram dark theme color */
+}
+
+.announcement-bar .announcement {
+  font-family: 'Dosis', sans-serif; /* Apply Dosis font */
+  color: white; /* Set text color to white */
+}
+
+.announcement-bar .announcement {
+  font-weight: 500;
+}
+

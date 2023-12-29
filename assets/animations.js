@@ -100,13 +100,3 @@ if (Shopify.designMode) {
   document.addEventListener('shopify:section:load', (event) => initializeScrollAnimationTrigger(event.target, true));
   document.addEventListener('shopify:section:reorder', () => initializeScrollAnimationTrigger(document, true));
 }
-
-document.addEventListener("DOMContentLoaded", function() {
-  var announcementBar = document.querySelector(".announcement-bar .announcement");
-  if (announcementBar) {
-      var originalText = announcementBar.textContent;
-      var marqueeText = '<marquee behavior="scroll" direction="left">' + originalText + '</marquee>';
-      announcementBar.innerHTML = marqueeText;
-  }
-});
-
