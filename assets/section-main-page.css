@@ -21,3 +21,8 @@
   width: 52.5rem;
   height: 52.5rem;
 }
+
+.announcement-bar .announcement marquee {
+  width: 100%;
+  white-space: nowrap;
+}
